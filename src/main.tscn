@@ -1,0 +1,590 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://OverpassBold-B3Xn.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Generator.cs" type="Script" id=3]
+[ext_resource path="res://main.tres" type="Texture" id=4]
+
+[sub_resource type="World" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 131
+font_data = ExtResource( 1 )
+
+[node name="Control5" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 0.840881
+margin_bottom = 0.840881
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_edit_vertical_guides_": [ 14.9537, 551.53, 850.872 ]
+}
+
+[node name="view" type="Viewport" parent="."]
+size = Vector2( 512, 512 )
+world = SubResource( 1 )
+transparent_bg = true
+handle_input_locally = false
+usage = 0
+render_direct_to_screen = true
+
+[node name="background" type="ColorRect" parent="view"]
+margin_top = 0.840881
+margin_right = 512.0
+margin_bottom = 512.841
+color = Color( 0.345098, 0.431373, 0.831373, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backlines" type="Control" parent="view"]
+modulate = Color( 1, 1, 1, 0.141176 )
+margin_top = 0.840881
+margin_right = 40.0
+margin_bottom = 40.8409
+
+[node name="ColorRect7" type="ColorRect" parent="view/backlines"]
+margin_left = 31.1201
+margin_top = -0.552948
+margin_right = 33.1201
+margin_bottom = 511.447
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect8" type="ColorRect" parent="view/backlines"]
+margin_left = 63.2118
+margin_top = 0.862854
+margin_right = 65.2118
+margin_bottom = 512.863
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect9" type="ColorRect" parent="view/backlines"]
+margin_left = 95.7755
+margin_top = 1.80673
+margin_right = 97.7755
+margin_bottom = 513.807
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect10" type="ColorRect" parent="view/backlines"]
+margin_left = 127.395
+margin_top = 1.57074
+margin_right = 129.395
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect11" type="ColorRect" parent="view/backlines"]
+margin_left = 159.251
+margin_top = 1.57074
+margin_right = 161.251
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect12" type="ColorRect" parent="view/backlines"]
+margin_left = 191.815
+margin_top = 1.33478
+margin_right = 193.815
+margin_bottom = 513.335
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect13" type="ColorRect" parent="view/backlines"]
+margin_left = 223.906
+margin_top = 1.09882
+margin_right = 225.906
+margin_bottom = 513.099
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect14" type="ColorRect" parent="view/backlines"]
+margin_left = 287.8
+margin_top = -0.552948
+margin_right = 289.8
+margin_bottom = 511.447
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect15" type="ColorRect" parent="view/backlines"]
+margin_left = 319.892
+margin_top = 0.862854
+margin_right = 321.892
+margin_bottom = 512.863
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect16" type="ColorRect" parent="view/backlines"]
+margin_left = 352.455
+margin_top = 1.80673
+margin_right = 354.455
+margin_bottom = 513.807
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect17" type="ColorRect" parent="view/backlines"]
+margin_left = 384.075
+margin_top = 1.57074
+margin_right = 386.075
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect18" type="ColorRect" parent="view/backlines"]
+margin_left = 415.931
+margin_top = 1.57074
+margin_right = 417.931
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect19" type="ColorRect" parent="view/backlines"]
+margin_left = 448.494
+margin_top = 1.33478
+margin_right = 450.494
+margin_bottom = 513.335
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect20" type="ColorRect" parent="view/backlines"]
+margin_left = 480.586
+margin_top = 1.09882
+margin_right = 482.586
+margin_bottom = 513.099
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backlines2" type="Control" parent="view"]
+modulate = Color( 1, 1, 1, 0.141176 )
+margin_left = 0.0716705
+margin_top = 512.61
+margin_right = 513.072
+margin_bottom = 1023.61
+rect_rotation = -90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect7" type="ColorRect" parent="view/backlines2"]
+margin_left = 31.1201
+margin_top = -0.552948
+margin_right = 33.1201
+margin_bottom = 511.447
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect8" type="ColorRect" parent="view/backlines2"]
+margin_left = 63.2118
+margin_top = 0.862854
+margin_right = 65.2118
+margin_bottom = 512.863
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect9" type="ColorRect" parent="view/backlines2"]
+margin_left = 95.7755
+margin_top = 1.80673
+margin_right = 97.7755
+margin_bottom = 513.807
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect10" type="ColorRect" parent="view/backlines2"]
+margin_left = 127.395
+margin_top = 1.57074
+margin_right = 129.395
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect11" type="ColorRect" parent="view/backlines2"]
+margin_left = 159.251
+margin_top = 1.57074
+margin_right = 161.251
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect12" type="ColorRect" parent="view/backlines2"]
+margin_left = 191.815
+margin_top = 1.33478
+margin_right = 193.815
+margin_bottom = 513.335
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect13" type="ColorRect" parent="view/backlines2"]
+margin_left = 223.906
+margin_top = 1.09882
+margin_right = 225.906
+margin_bottom = 513.099
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect14" type="ColorRect" parent="view/backlines2"]
+margin_left = 287.8
+margin_top = -0.552948
+margin_right = 289.8
+margin_bottom = 511.447
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect15" type="ColorRect" parent="view/backlines2"]
+margin_left = 319.892
+margin_top = 0.862854
+margin_right = 321.892
+margin_bottom = 512.863
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect16" type="ColorRect" parent="view/backlines2"]
+margin_left = 352.455
+margin_top = 1.80673
+margin_right = 354.455
+margin_bottom = 513.807
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect17" type="ColorRect" parent="view/backlines2"]
+margin_left = 384.075
+margin_top = 1.57074
+margin_right = 386.075
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect18" type="ColorRect" parent="view/backlines2"]
+margin_left = 415.931
+margin_top = 1.57074
+margin_right = 417.931
+margin_bottom = 513.571
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect19" type="ColorRect" parent="view/backlines2"]
+margin_left = 448.494
+margin_top = 1.33478
+margin_right = 450.494
+margin_bottom = 513.335
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect20" type="ColorRect" parent="view/backlines2"]
+margin_left = 480.586
+margin_top = 1.09882
+margin_right = 482.586
+margin_bottom = 513.099
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="centerline" type="Control" parent="view"]
+margin_top = 0.840881
+margin_right = 40.0
+margin_bottom = 40.8409
+
+[node name="ColorRect7" type="ColorRect" parent="view/centerline"]
+margin_left = 255.34
+margin_top = -0.552948
+margin_right = 258.34
+margin_bottom = 511.447
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect8" type="ColorRect" parent="view/centerline"]
+margin_top = 255.0
+margin_right = 512.0
+margin_bottom = 258.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="first" type="Label" parent="view"]
+margin_left = 6.98822
+margin_top = 3.29285
+margin_right = 226.988
+margin_bottom = 45.2929
+custom_fonts/font = SubResource( 2 )
+text = "GODOT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="line" type="ColorRect" parent="view"]
+margin_left = 8.64322
+margin_top = 46.2772
+margin_right = 123.643
+margin_bottom = 51.2771
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="second" type="Label" parent="view"]
+margin_left = 8.42702
+margin_top = 49.4247
+margin_right = 160.427
+margin_bottom = 91.4247
+custom_fonts/font = SubResource( 2 )
+text = "2m x 2m"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="three" type="Label" parent="view"]
+modulate = Color( 1, 1, 1, 0.0784314 )
+margin_top = 416.907
+margin_right = 579.0
+margin_bottom = 584.907
+rect_rotation = -47.0431
+custom_fonts/font = SubResource( 3 )
+text = "GODOT"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="crop" type="Control" parent="view"]
+margin_top = 0.840881
+margin_right = 40.0
+margin_bottom = 40.8409
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="view/crop"]
+margin_right = 512.0
+margin_bottom = 2.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="view/crop"]
+margin_left = -0.0948143
+margin_top = 510.045
+margin_right = 514.905
+margin_bottom = 512.045
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect5" type="ColorRect" parent="view/crop"]
+margin_right = 2.0
+margin_bottom = 512.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect6" type="ColorRect" parent="view/crop"]
+margin_left = 510.039
+margin_top = -0.0650349
+margin_right = 512.039
+margin_bottom = 511.935
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 900.0
+margin_bottom = 600.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TabContainer" type="TabContainer" parent="."]
+margin_left = 26.0
+margin_top = 7.0
+margin_right = 899.0
+margin_bottom = 67.0
+tab_align = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Crop Lines" type="Tabs" parent="TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Center Lines" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Background" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Background Lines" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Text 1" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Text Line" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Text 2" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="Text 3" type="Tabs" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 29.3665
+margin_top = 33.371
+margin_right = 541.367
+margin_bottom = 545.371
+texture = ExtResource( 4 )
+flip_v = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 552.0
+margin_top = 93.0
+margin_right = 731.0
+margin_bottom = 117.0
+pressed = true
+text = "Enable line"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorPicker" type="ColorPicker" parent="."]
+margin_left = 553.0
+margin_top = 127.0
+margin_right = 892.0
+margin_bottom = 589.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 742.0
+margin_top = 93.0
+margin_right = 849.0
+margin_bottom = 113.0
+text = "Save"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 551.0
+margin_top = 34.1784
+margin_right = 850.0
+margin_bottom = 58.1784
+text = "GODOT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+margin_left = 552.0
+margin_top = 63.0
+margin_right = 850.0
+margin_bottom = 87.0
+text = "2m x 2m"
+placeholder_text = "Text"
+
+[node name="LineEdit3" type="LineEdit" parent="."]
+margin_left = 663.0
+margin_top = 91.0
+margin_right = 728.0
+margin_bottom = 115.0
+text = "GODOT"
+placeholder_text = "Text"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PopupMenu" type="FileDialog" parent="."]
+margin_left = 84.0
+margin_top = 90.0
+margin_right = 759.0
+margin_bottom = 454.0
+rect_min_size = Vector2( 160, 56 )
+window_title = "Сохранить файл"
+access = 2
+current_dir = "/.development/project-TexturePGen"
+current_path = "/.development/project-TexturePGen/"
+__meta__ = {
+"_edit_use_anchors_": false
+}

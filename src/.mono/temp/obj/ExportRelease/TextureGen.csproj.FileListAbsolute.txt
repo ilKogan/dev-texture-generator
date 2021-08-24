@@ -1,0 +1,8 @@
+H:\.development\project-TexturePGen\.mono\temp\bin\ExportRelease\TextureGen.dll
+H:\.development\project-TexturePGen\.mono\temp\bin\ExportRelease\TextureGen.pdb
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.csprojAssemblyReference.cache
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.AssemblyInfoInputs.cache
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.AssemblyInfo.cs
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.csproj.CoreCompileInputs.cache
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.dll
+H:\.development\project-TexturePGen\.mono\temp\obj\ExportRelease\TextureGen.pdb

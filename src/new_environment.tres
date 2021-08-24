@@ -1,0 +1,5 @@
+[gd_resource type="Environment" format=2]
+
+[resource]
+adjustment_enabled = true
+adjustment_brightness = 0.61
